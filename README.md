@@ -67,6 +67,17 @@ ruby ruby_basics/03_classes.rb
 
    ![Классы](screenshots/04_classes.png)
 
+### Консоль Rails
+
+Примеры из методички и упражнения 4.6, набранные в `bin/rails console`:
+
+| Что | Снимок |
+|---|---|
+| Интерполяция, `string_shuffle` (упр. 1), палиндром | ![](screenshots/05_console_strings.png) |
+| `String#shuffle` (упр. 2), `blank?`, `length` | ![](screenshots/06_console_shuffle.png) |
+| Вложенные хэши и `merge` (упр. 3 и 4) | ![](screenshots/07_console_hashes.png) |
+| Класс `User` и `helper.full_title` | ![](screenshots/08_console_user.png) |
+
 ### Итог
 
 Заголовки всех страниц формирует один хелпер, что подтверждают тесты. На упражнениях отработаны блоки, хэши и расширение встроенных классов.
